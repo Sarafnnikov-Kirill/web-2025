@@ -1,0 +1,66 @@
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.text-bg-dark {
+  color: hsl(var(--color), 15%, 80%)!important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-secondary {
+  color: hsl(var(--color), 10%, 60%)!important;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+.accordion-item {
+  border: 0px solid; 
+  background-color: rgba(0, 0, 0, 0);
+  color: hsl(var(--color), 15%, 80%);
+}
+
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  background: rgba(0, 0, 0, 0);
+  color: hsl(var(--color), 15%, 80%)!important;
+}
+
+.accordion-item:not(:first-of-type) .accordion-button{
+  background: rgba(0, 0, 0, 0);
+  color: hsl(var(--color), 15%, 80%);
+}
+
+.avatar {
+  border-radius: 180px;
+  border: 0px solid transparent;
+  box-shadow: 0 0px 10px 0px hsl(var(--color), 50%, 50%);
+  object-fit: cover;
+}
+
+.nav-masthead .nav-link {
+  color: hsl(var(--color), 30%, 80%)!important;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: hsl(var(--color), 50%, 50%);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
