@@ -34,7 +34,7 @@ a {
   box-shadow: inherit;
 }
 
-.accordion-item:first-of-type .accordion-button {
+.accordion-item:fir`-of-type .accordion-button {
   background: rgba(0, 0, 0, 0);
   color: hsl(var(--color), 15%, 80%)!important;
 }

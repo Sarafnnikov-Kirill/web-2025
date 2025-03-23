@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Golos UI, Arial, Helvetica, sans-serif;
+    color: #222222;
+    /*font-family: Golos UI; src: url(fonts/golos-ui_vf.woff)*/
+}
+
+.menu-icon-wraper {
+    max-width: 40px;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.menu-icon-wraper-active::after {
+    display: block;
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #222222;
+    border-radius: 50%;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    margin-bottom: 16px;
+    background-position: center center;
+}
+
+.menu-icon-home {
+    background-image: url("../images/home-icon.svg");
+}
+
+.menu-icon-user {
+    background-image: url("../images/user-icon.svg");
+}
+
+.menu-icon-plus {
+    background-image: url("../images/plus-icon.svg");
+}
+
+.user-avatar {
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.25px;
+    margin-bottom: 10px;
+}
+
+.about-user {
+    width: 361px;
+    font-size: 15px;
+    letter-spacing: -0.15px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.posts-counter {
+    height: 30px;
+    width: fit-content;
+    /*ширина блока подстравивается под контерт*/
+    padding: 6px 10px 6px 10px;
+    background-color: #F2F3F5;
+    border-radius: 6px;
+    margin-bottom: 42px;
+}
+
+.image {
+    min-width: 343px;
+    border-radius: 2px;
+}

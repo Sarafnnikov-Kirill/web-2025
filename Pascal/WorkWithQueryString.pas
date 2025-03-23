@@ -19,8 +19,8 @@ BEGIN
     BEGIN
       {Обрезаем строку}
       QueryString := Copy(QueryString, PosKey + Length(Key) + 1, Length(QueryString));
-      PosEnd := Pos('?', QueryString);{Ищем символ ? или конец строки}
-      IF PosEnd > 0                   {Если найден символ ?, обрезаем строку до него}
+      PosEnd := Pos('&', QueryString);{Ищем символ & или конец строки}
+      IF PosEnd > 0                   {Если найден символ &, обрезаем строку до него}
       THEN
         Value := Copy(QueryString, 1, PosEnd - 1)
       ELSE
